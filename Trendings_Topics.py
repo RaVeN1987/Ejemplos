@@ -25,10 +25,10 @@ import matplotlib.dates as mdates
 
 class TwitterBot():
     def __init__(self):
-        self.consumer_key ="oQfGhiS1qQVXVOrYEDe3yOPbh"
-        self.acces_token = "1249788032305201152-NNAqJMX39hFWGmSJhO2Va5RwWeHp4J"
-        self.consumer_secret = "dCKNIKKpSmdh07KsYNTlQi6NLfNGpq1qSKF8br6jo6YxQkBtA6"
-        self.access_secret = "XvfLzX8vmbSAGBHBvKq2ela1DTxPDAFKMoapdfPhC3sZs"
+        self.consumer_key ="xxxxxxxxxxxx"
+        self.acces_token = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+        self.consumer_secret = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+        self.access_secret = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
         self.auth = tweepy.OAuthHandler(self.consumer_key, self.consumer_secret)
         self.auth.set_access_token(self.acces_token, self.access_secret)
         self.colors = ['#012A36', '#00487C', '#0B4F6C', '#376996', '#3E92CC', '#556F7A', '#556F7A']
